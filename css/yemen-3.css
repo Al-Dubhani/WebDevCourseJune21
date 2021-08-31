@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+}
+
+nav{
+    background-color: wheat;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  ol {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+  }
+     li {
+       float: left;
+  }
+  
+     nav a {
+       /*width: 70px;*/
+       display: block;
+       text-decoration: none;
+       font-size: 1.5rem;
+       color: black;
+       padding: 20px 10px;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+  
+     nav a:hover {
+       background: brown;
+       color: white;
+     }
+
+     nav .home{
+         background-color: brown;
+         color: white;
+     }
+
+img{
+    width: 500px;
+    border: 2px solid;
+}
+
+.shibam img{
+    width: 910px;
+    float: left;
+    padding-left: 100px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid;
+}
+
+.title{
+    font-size: 2rem;
+    color: brown;
+}
+
+.title-2{
+    background-color: wheat;
+}
+
+.title-2>h2{
+    font-size: 2rem;
+    color: white;
+    background-color: brown;
+    width: 400px;
+    border: 5px solid;
+    padding: 20px;
+}
+
+p{
+    font-size: 1.5rem;
+    padding: 40px;
+}
+
+/*
+::selection{
+    color: green;
+    background-color: white;
+}
+*/

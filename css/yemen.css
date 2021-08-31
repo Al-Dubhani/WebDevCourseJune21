@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+img{
+    width: 500px;
+    border: 2px solid;
+    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid;
+    height: 100vh;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.article{
+    background-color: gray;
+
+}
+.article>h2{
+    font-size: 2rem;
+}
